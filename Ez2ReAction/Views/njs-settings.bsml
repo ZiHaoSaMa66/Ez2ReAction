@@ -1,0 +1,20 @@
+<bg>
+  <scrollable-settings-container>
+    <toggle-setting value="enabled" text="Enable NJS Override" apply-on-change="true"/>
+    <slider-setting id="njs-slider" value="njs-value" text="Note Jump Speed" min="1" max="30" increment="0.5" apply-on-change="true"/>
+    <toggle-setting value="override-offset" text="Enable Spawn Offset Override" apply-on-change="true"/>
+    <slider-setting id="offset-slider" value="offset-value" text="Spawn Offset" min="-1" max="1" increment="0.001" apply-on-change="true"/>
+    <horizontal pad-left="4" pad-right="4">
+      <text text="~map-njs-label" font-size="3.5" italic="true"/>
+    </horizontal>
+    <horizontal pad-left="4" pad-right="4">
+      <text text="~map-offset-label" font-size="3.5" italic="true"/>
+    </horizontal>
+    <horizontal pad-left="4" pad-right="4">
+      <text text="~reaction-time-label" font-size="3.5" italic="true"/>
+    </horizontal>
+    <horizontal pad-right="4">
+      <text text="Allow you adjust beatmap diff setting, Enjoy Game. -- ZiHao" font-size="3" italic="true" word-wrapping="true"/>
+    </horizontal>
+  </scrollable-settings-container>
+</bg>
